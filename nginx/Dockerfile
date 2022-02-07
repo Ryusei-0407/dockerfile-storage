@@ -1,3 +1,3 @@
 FROM nginx:mainline-alpine
 
-COPY 
+COPY ./default.conf /etc/nginx/conf.d/
